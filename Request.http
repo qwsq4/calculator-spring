@@ -1,0 +1,14 @@
+###Приветствие
+GET http://localhost:8080/calculator
+
+###Сложение
+GET http://localhost:8080/calculator/plus?num1=5&num2=4
+
+###Вычитание
+GET http://localhost:8080/calculator/minus?num1=10&num2=7
+
+###Умножение
+GET http://localhost:8080/calculator/multiply?num1=6&num2=3
+
+###Деление
+GET http://localhost:8080/calculator/divide?num1=8&num2=0
